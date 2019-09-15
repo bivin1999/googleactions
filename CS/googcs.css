@@ -1,0 +1,95 @@
+h1{
+  color: black;
+  font-size: 3vw;
+}
+h1:hover{
+  color: blue;
+}
+#h{
+  font-size: 5vw;
+}
+ #hd{
+    color: black;
+    font-size: 5vw;
+  }
+  #D,#H,#M,#S{
+    color: red;
+    font-size: 7vw;
+  }
+  .item1 { grid-area: day1; }
+.item2 { grid-area: day2; }
+.item3 { grid-area: day3; }
+.item4 { grid-area: day4; }
+
+.grid-container-1 {
+  display: grid;
+  grid-template-areas:
+    'day1 day2 day3 day4'
+    'day1 day2 day3 day4';
+  grid-gap: 3px;
+  background-color: rgba(255,255,255,0);
+}
+
+.grid-container-1 > div {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.it1{ grid-area: d1; border: 5px solid black;}
+.it2{ grid-area: d2; border: 5px solid black;}
+.it3{ grid-area: d3; border: 5px solid black; }
+.it4{ grid-area: d4; border: 5px solid black; }
+.grid-container-2 {
+  display: grid;
+  grid-template-areas:
+    'd1'
+    'd2'
+    'd3'
+    'd4';
+  grid-gap: 10px;
+  background-color: rgba(255,255,255,0);
+}
+
+.grid-container-2 > div {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+}
+#hd:hover{
+  color: blue;
+}
+h3{
+  color: black;
+}
+h3:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.btn{
+  font-size: 25px;
+  background-color: blue;
+  text-decoration-color: white;
+  padding: 32px 16px;
+}
+.btn:hover{
+  color: white;
+  text-decoration-color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+ @media only screen and (max-width: 768px){
+    h1{
+      font-size: 8vw;
+    }
+    #h{
+      font-size: 9vw;
+    }
+    #hd{
+    color: black;
+    font-size: 8vw;
+  }
+  #D,#H,#M,#S{
+    color: red;
+    font-size: 8vw;
+  }
+  }
