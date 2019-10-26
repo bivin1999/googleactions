@@ -13,6 +13,6 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("hj").innerHTML = "Has been conducted";
-    document.getElementByClass("grid-container-1").innerHTML=".";
+    document.getElementById("g1").innerHTML=".";
   }
 }, 1000);
