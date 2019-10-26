@@ -12,6 +12,7 @@ var x = setInterval(function() {
   document.getElementById("S").innerHTML = seconds;
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "BEGAN";
+    document.getElementById("hj").innerHTML = "Has been conducted";
+    document.getElementByClass("grid-container-1").innerHTML=".";
   }
 }, 1000);
